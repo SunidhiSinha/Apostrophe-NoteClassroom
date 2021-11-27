@@ -1,0 +1,13 @@
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url(http://getwallpapers.com/wallpaper/full/5/e/5/446694.jpg);
+}
+
+.login_logo {
+  width: 40%;
+  margin-bottom: 2rem;
+}

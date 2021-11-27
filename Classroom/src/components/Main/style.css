@@ -1,0 +1,132 @@
+.main_wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 2 * 1.5rem);
+  max-width: 62.5rem;
+}
+.main_content {
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+.main_wrapper1 {
+  height: 15rem;
+  position: relative;
+  width: 100%;
+}
+.main_bgImage {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-illustration-image_458703.jpg');
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main_emptyStyles {
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main_text {
+  position: relative;
+  padding: 1.5rem;
+}
+.main_heading {
+  font-family: 'Raleway', Roboto, Arial, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.75rem;
+  color: #fff;
+
+  margin: 0;
+}
+.main_overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.main_section {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #fff;
+}
+.main_wrapper2 {
+  color: #fff;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.main_code {
+  font-weight: 500;
+  font-style: normal;
+}
+.main_announce {
+  display: flex;
+
+  flex-shrink: 0;
+  margin-top: 1rem;
+  margin-left: -2rem;
+  margin-right: 1.6rem;
+}
+.main_announcements {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  margin: -2.4rem;
+  margin-left: 1rem;
+}
+.announceApart {
+  text-align: center;
+  margin-top: 1rem;
+}
+.main_announcementsWrapper {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  min-height: 4.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.main_ancContent {
+  padding: 30px;
+  width: 70vw;
+  color: rgba(0, 0, 0, 0.549);
+}
+
+.main_wrapper100 {
+  display: flex !important;
+  cursor: pointer;
+  align-items: center;
+}
+.main_wrapper100 > * {
+  margin-right: 20px;
+}
+#filled-multiline-flexible {
+  width: 50vw !important;
+  height: 20vh !important;
+}
+.main_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 842px) {
+  .main_status {
+    display: none;
+  }
+}

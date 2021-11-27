@@ -1,0 +1,28 @@
+/*adding style to annumcement */
+.anc {
+  background-color: #fff;
+  border: 0.0625rem solid #dadce0;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.anc_top {
+  display: flex;
+  align-items: center;
+}
+.anc_top > * {
+  margin-left: 10px;
+}
+.anc_Cnt {
+  padding: 0.5rem 0;
+}
+.anc_txt {
+  margin: 10px 15px;
+}
+.anc_img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-left: 10px;
+}
