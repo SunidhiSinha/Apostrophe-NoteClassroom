@@ -1,15 +1,16 @@
 # Apostrophe-NoteClassroom
 This is a classroom website made with react.js and firebase.
+### Note: The noteapp can be used as an independent website too. So, I have deployed it separately.
 ## Features:
 1. Logging through google
 2. Creating a new class
 3. Join Class:Only the students with the correct class id and teacher email can join a class
-4. Annoncements: Only the teacher can make announcement or upload the resources. The student can only view the announcements and can download the file.
+4. Announcements: Only the teacher can make announcement or upload the resources. The student can only view the announcements and can download the file.
 5. Note app: This is a voice to next note app where the student can convert the lecture which the teacher conducts through meet/zoom/Ms Tems into text and then further it can be printed or saved as pdf.
 6. Redirecting 
 7. Privacy as the joined students can only see the announcements.
 ## Working:
-The 1st page is the login page. After logging , it redirects us to the home page which shows all the joined classes. Here a person can create or join a class. After creating a class the teacher can make announcements . The student can join the same class with the class code and then can view the announcements. Apart from this , it has an additional feature of Voice to text app, where the student can convert the lecture(i.e Speech) which the teacher conducts through meet/zoom/Ms Tems into text and then further it can be printed or saved as pdf.
+The 1st page is the login page. After logging , it redirects us to the home page which shows all the joined classes. Here a person can create or join a class. After creating a class the teacher can make announcements . The student can join the same class with the class code and then can view the announcements. Apart from this , it has an additional feature of Voice to text app, where the student can convert the lecture(i.e Speech) which the teacher conducts through meet/zoom/MS Teams into text and then further it can be printed or saved as pdf.
 ### The /Classroom contains the code for the classroom creation,joining and announcements and the /NoteApp contains the code for Note App.
 ## Screenshots:
 1.Login page:
